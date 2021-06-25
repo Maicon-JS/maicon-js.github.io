@@ -36,10 +36,10 @@ a::before {
 }
 a:hover {
     transform: scale(1.1);
-    color: #FFB30f;
+    
 }
 
-#button {
+.button {
     display: inline-block;
     background-color: #FFB30f;
     height: 60px;
@@ -57,4 +57,71 @@ a:hover {
 #button:hover {
     transform: scale(1.1);
     color: #262626;
+}
+
+.box-titulo {
+    position: absolute;
+    margin-top: 116px;
+    margin-left: 91px;
+    height: 184px;
+    width: 627px;
+    background-color: #262626;
+    box-shadow: 10px 10px 0 black;
+}
+.box-titulo,h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 40px;
+    padding-top: 42px; 
+    color: #FFB30f;
+    text-align: center;
+    
+    text-shadow:5px 5px #000;
+}
+.box-titulo, h2 {
+    padding-top: 28px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.button2 {
+    position: absolute;
+    display: inline-block;
+    background-color: #FFB30f;
+    width: 170px;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 5px 5px 0 black;
+    margin-right: 0;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 360px;
+    
+}
+.button1 {
+    position: relative;
+    display: inline-block;
+    background-color: #FFB30f;
+    width: 170px;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 5px 5px 0 black;
+    margin-right: 0;
+    text-align: center;
+    margin-left: 150px;
+    margin-top: 360px;
+    
+}
+.bg {
+    position: absolute;
+    width: 100%;
+    height: 797px;
+    left: 0px;
+    top: 80px;
+    background-image: url(../assets/img/Super-Mario-1080-Main.jpg);
+    background-size: cover;
+    
 }
